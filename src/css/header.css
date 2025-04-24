@@ -1,4 +1,5 @@
 .page-header {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
 .header-container {
   display: flex;
@@ -6,6 +7,8 @@
   height: 34px;
   align-items: center;
   justify-content: flex-start;
+  flex-direction: row;
+  gap: 211px;
 }
 .header-nav {
 }
@@ -16,7 +19,6 @@
   color: #0c0c0c;
   width: 90px;
   height: 19px;
-  margin-right: 211px;
 }
 @media screen and (min-width: 768px) {
   .header-logo {
@@ -55,8 +57,8 @@
 .burger-btn {
   width: 40px;
   height: 40px;
-  /* position: relative; */
   border: none;
+  background-color: blueviolet;
 }
 .burger-icon {
   fill: #0c0c0c;
