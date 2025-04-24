@@ -1,1 +1,30 @@
-
+.header-nav {
+}
+.header-logo {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+@media screen and (min-width: 768px) {
+  .header-logo {
+    font-size: 20px;
+  }
+}
+.nav-list {
+visibility: hidden;
+}
+@media screen and (min-width: 768px) {
+    .nav-list {
+        visibility:visible;
+        }
+}
+.nav-item {}
+.nav-link {}
+.soc-link-list {
+    visibility: hidden;
+}
+@media screen and (min-width: 768px) {
+    .soc-link-list {
+        visibility: visible;
+    } 
+}
