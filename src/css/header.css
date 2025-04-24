@@ -1,14 +1,25 @@
 .page-header {
-    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
 .header-container {
   display: flex;
   width: 335px;
   height: 34px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: row;
-  gap: 211px;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 704px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-container {
+    width: 1151px;
+    height: 36px;
+  }
 }
 .header-nav {
 }
@@ -19,6 +30,7 @@
   color: #0c0c0c;
   width: 90px;
   height: 19px;
+  margin: 8px 0;
 }
 @media screen and (min-width: 768px) {
   .header-logo {
@@ -27,32 +39,80 @@
     height: 24px;
   }
 }
-
+@media screen and (min-width: 1280px) {
+  .header-logo {
+    margin: 6px 0;
+  }
+}
 .nav-list {
   display: none;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .nav-list {
     display: flex;
+    width: 505px;
+    height: 28px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
   }
 }
 .nav-item {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #3350e9;
+  border-radius: 50%;
+  width: 9px;
+  height: 8px;
+  transform: translateX(-50%) scale(0);
+  transform-origin: bottom center;
+  transition: transform 0.3s ease-in-out;
+}
+.nav-item:hover::after, .nav-item:focus::after{
+  transform: translateX(-50%) scale(1);
 }
 .nav-link {
 }
 .soc-link-list {
   display: none;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .soc-link-list {
     display: flex;
+    width: 128px;
+    height: 36px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
   }
 }
 .soc-icon {
+  border: 1px solid rgba(12, 12, 12, 0.1);
+border-radius: 10px;
+padding: 8px;
+width: 36px;
+height: 36px;
 }
+
 .soc-icon-link {
 }
+
 .soc-icon-svg {
+  fill: #0c0c0c;
+}
+.soc-icon-svg:hover, .soc-icon-svg:focus {
+  fill: #3350e9;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.8;
 }
 .burger-btn {
   width: 40px;
@@ -61,7 +121,12 @@
   background-color: transparent;
   padding: 0;
 }
+@media screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+}
 .burger-icon {
-    display: block;
+  display: block;
   fill: #0c0c0c;
 }
