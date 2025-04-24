@@ -78,6 +78,7 @@
 }
 
 .advertisement-link {
+  display: inline-block;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
   font-family: var(--main-font);
