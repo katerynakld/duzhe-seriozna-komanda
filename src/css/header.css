@@ -58,8 +58,10 @@
   width: 40px;
   height: 40px;
   border: none;
-  background-color: blueviolet;
+  background-color: transparent;
+  padding: 0;
 }
 .burger-icon {
+    display: block;
   fill: #0c0c0c;
 }
