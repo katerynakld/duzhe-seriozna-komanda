@@ -1,30 +1,63 @@
+.page-header {
+}
+.header-container {
+  display: flex;
+  width: 335px;
+  height: 34px;
+  align-items: center;
+  justify-content: flex-start;
+}
 .header-nav {
 }
 .header-logo {
+  display: block;
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  width: 90px;
+  height: 19px;
+  margin-right: 211px;
 }
 @media screen and (min-width: 768px) {
   .header-logo {
     font-size: 20px;
+    width: 112px;
+    height: 24px;
   }
 }
+
 .nav-list {
-visibility: hidden;
+  display: none;
 }
-@media screen and (min-width: 768px) {
-    .nav-list {
-        visibility:visible;
-        }
+@media screen and (min-width: 1200px) {
+  .nav-list {
+    display: flex;
+  }
 }
-.nav-item {}
-.nav-link {}
+.nav-item {
+}
+.nav-link {
+}
 .soc-link-list {
-    visibility: hidden;
+  display: none;
 }
-@media screen and (min-width: 768px) {
-    .soc-link-list {
-        visibility: visible;
-    } 
+@media screen and (min-width: 1200px) {
+  .soc-link-list {
+    display: flex;
+  }
+}
+.soc-icon {
+}
+.soc-icon-link {
+}
+.soc-icon-svg {
+}
+.burger-btn {
+  width: 40px;
+  height: 40px;
+  /* position: relative; */
+  border: none;
+}
+.burger-icon {
+  fill: #0c0c0c;
 }
