@@ -14,6 +14,8 @@
 /* Sections style */
 @import url('./header.css');
 
+@import url('./advertisement.css');
+
 @import url('./about-us.css');
 
 @import url('./hero.css');
