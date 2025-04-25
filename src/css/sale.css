@@ -1,6 +1,5 @@
 .sale {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .secondary-title {
@@ -99,6 +98,10 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .price-old {
@@ -140,4 +143,132 @@
 
   display: flex;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale {
+    padding-bottom: 80px;
+  }
+
+  .secondary-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .sale-group {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .sale-list {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .sale-item-container {
+    width: 132px;
+    height: 132px;
+    border-radius: 20px;
+  }
+
+  .sale-item-container img {
+    width: 96px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .sale-product {
+    width: 552px;
+    height: 558px;
+    border-radius: 50px;
+    margin-bottom: 0;
+  }
+
+  .sale-product-image {
+    height: 100%;
+  }
+
+  .sale-product-image img {
+    width: 328px;
+    height: 398px;
+  }
+
+  .sale-product-content {
+    width: 704px;
+    height: 518px;
+    border-radius: 50px;
+    padding: 60px;
+    margin: 0 auto;
+  }
+
+  .product-title {
+    font-size: 32px;
+    line-height: 1.13;
+    letter-spacing: -0.02em;
+    max-width: 436px;
+  }
+
+  .product-price {
+    margin-bottom: 30px;
+  }
+
+  .price-current {
+    width: 78px;
+
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .product-description {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+
+  .product-tags {
+    max-width: 398px;
+  }
+
+  .tag {
+    height: 34px;
+
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sale {
+    padding-bottom: 100px;
+  }
+
+  .sale-content-wrapper {
+    display: flex;
+  }
+
+  .sale-group {
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+
+  .sale-product {
+    width: 428px;
+  }
+
+  .sale-product-content {
+    margin: 0;
+    width: 530px;
+    height: 558px;
+  }
+
+  .product-title {
+    max-width: 389px;
+  }
+
+  .product-description {
+    width: 410px;
+  }
 }
