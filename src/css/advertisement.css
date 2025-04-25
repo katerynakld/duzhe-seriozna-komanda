@@ -4,7 +4,7 @@
 }
 
 .advertisement-container {
-  background-image: url(../img/advertisement-mobile.png);
+  background-image: url(/img/advertisement-mobile.png);
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 60px 28px;
@@ -12,7 +12,7 @@
 
 @media screen and (min-resolution: 192dpi) {
   .advertisement-container {
-    background-image: url(../img/advertisement-mobile-2x.png);
+    background-image: url(/img/advertisement-mobile-2x.png);
   }
 }
 
@@ -23,14 +23,14 @@
   }
 
   .advertisement-container {
-    background-image: url(../img/advertisement-tablet.png);
+    background-image: url(/img/advertisement-tablet.png);
     padding: 80px 64px;
   }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .advertisement-container {
-    background-image: url(../img/advertisement-tablet-2x.png);
+    background-image: url(/img/advertisement-tablet-2x.png);
   }
 }
 
@@ -41,7 +41,7 @@
   }
 
   .advertisement-container {
-    background-image: url(../img/advertisement-desktop.png);
+    background-image: url(/img/advertisement-desktop.png);
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -51,7 +51,7 @@
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .advertisement-container {
-    background-image: url(../img/advertisement-desktop-2x.png);
+    background-image: url(/img/advertisement-desktop-2x.png);
   }
 }
 
