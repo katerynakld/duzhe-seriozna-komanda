@@ -1,0 +1,83 @@
+<section class="contact-us" id="contact-us">
+  <div class="container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="desktop-wrapper">
+      <div class="modal">
+        <p class="form-subtitle">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <div class="form-wrapper">
+          <form class="form" name="form" autocomplete="off" novalidate>
+            <div class="form-content">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                autofocus
+                required
+              />
+            </div>
+            <div class="form-content">
+              <input
+                class="form-input"
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                placeholder="Email"
+                required
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              />
+            </div>
+            <div class="form-content">
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="+380"
+                required
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              />
+            </div>
+            <div class="textarea">
+              <textarea
+                id="user-comment"
+                class="textarea-com"
+                name="user-comment"
+                rows="4"
+                placeholder="Comment"
+              ></textarea>
+            </div>
+            <button class="submit-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="contact-us-picture">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/img/cont-dest-min.jpg 1x, /img/cont-dest@2x-min.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/img/cont-tab-min.jpg 1x, /img/cont-tab@2-min.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/img/cont-mob-min.jpg 1x, /img/cont-mob@2-min.jpg 2x"
+          />
+          <img
+            src="/img/cont-mob-min.jpg"
+            class="cont-us-img"
+            alt="image"
+            width="335"
+            height="512"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,164 @@
+.container.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .container.hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container.hero {
+    padding-bottom: 100px;
+  }
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+    line-height: 86%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 72px;
+    line-height: 87%;
+  }
+}
+
+.hero-span {
+  color: #3350e9;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-first-wrapper {
+    max-width: 557px;
+  }
+
+  .hero-first-wrapper p {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-first-wrapper {
+    max-width: 597px;
+  }
+}
+
+.hero-second-wrapper {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-second-wrapper {
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.hero-member-wrapper {
+  position: relative;
+  width: 108px;
+  height: 44px;
+}
+
+.hero-member-wrapper img {
+  display: inline-block;
+  width: 44px;
+}
+
+.hero-member-2 {
+  position: absolute;
+  left: 32px;
+  z-index: 2;
+}
+
+.hero-member-3 {
+  position: absolute;
+  left: 64px;
+  z-index: 3;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-member-wrapper {
+    width: 136px;
+    height: 60px;
+    padding-bottom: 4px;
+  }
+
+  .hero-member-wrapper img {
+    width: 56px;
+  }
+
+  .hero-member-2 {
+    left: 41px;
+  }
+
+  .hero-member-3 {
+    left: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-member-wrapper {
+    width: 146px;
+    padding-bottom: 0px;
+  }
+
+  .hero-member-wrapper img {
+    width: 60px;
+  }
+
+  .hero-member-2 {
+    left: 44px;
+  }
+
+  .hero-member-3 {
+    left: 86px;
+  }
+}
+
+.hero-scroll-down {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  transition: color 0.4s ease-in-out;
+}
+
+.hero-scroll-down:hover,
+.hero-scroll-down:focus {
+  color: #3350e9;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-scroll-down {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
