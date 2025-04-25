@@ -1,3 +1,19 @@
+.contact-us {
+    padding-bottom: 60px;
+}
+
+@media screen and (min-width:768px) {
+.contact-us {
+    padding-bottom: 80px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.contact-us {
+    padding-bottom: 100px;
+}
+}
+
 .contact-us-title {
     font-weight: 600;
     font-size: 32px;
@@ -72,7 +88,8 @@
     height: 42px;
     background: transparent;
     border: 1px solid rgba(12, 12, 12, 0.15);
-    transition: border-color 300ms ease-in-out;
+    transition: border-color 200ms ease-in-out 100ms;
+    outline: none;
 }
 
 .form-input:focus {
@@ -82,7 +99,7 @@
 .form-input::placeholder {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     color: #0c0c0c;
 }
 
@@ -107,7 +124,8 @@
     height: 84px;
     background-color: transparent;
     resize: none;
-    transition: border-color 300ms ease-in-out 0ms;
+    transition: border-color 200ms ease-in-out 100ms;
+    outline: none;
 }
 
 .textarea-com::placeholder {
@@ -118,7 +136,7 @@
 }
 
 .textarea-com:focus {
-    border-color: #3350e9;
+    border-color: #1f3cd4;
 }
 
 @media screen and (min-width:768px) {
