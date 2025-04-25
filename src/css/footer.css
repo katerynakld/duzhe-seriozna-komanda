@@ -1,6 +1,5 @@
 .footer {
-  /* padding: 0 20px; */
-  padding: 60px 20px 20px 20px;
+  padding: 0 0 20px 0;
 }
 
 .footer-container {
@@ -178,8 +177,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 80px 32px 0 32px;
-    margin-bottom: 32px;
+    padding: 0 0 32px 0;
   }
 
   .footer-container {
@@ -271,10 +269,6 @@
 /* -------------DESKTOP--------------- */
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    padding-top: 100px;
-  }
-
   .footer-container {
     padding: 40px 40px 28px;
     max-width: 1216px;
