@@ -8,7 +8,7 @@
           phone, and message and we'll get back to you shortly.
         </p>
         <div class="form-wrapper">
-          <form class="form" name="form" autocomplete="off" novalidate>
+          <form class="form" name="form" autocomplete="off">
             <div class="form-content">
               <input
                 class="form-input"
@@ -16,7 +16,6 @@
                 name="user-name"
                 id="user-name"
                 placeholder="Name"
-                autofocus
                 required
               />
             </div>
@@ -27,8 +26,8 @@
                 name="user-email"
                 id="user-email"
                 placeholder="Email"
-                required
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
               />
             </div>
             <div class="form-content">
@@ -38,8 +37,8 @@
                 name="user-tel"
                 id="user-tel"
                 placeholder="+380"
-                required
                 pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                required
               />
             </div>
             <div class="textarea">
