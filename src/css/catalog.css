@@ -82,8 +82,11 @@
   line-height: 129%;
   text-align: center;
   white-space: nowrap;
+  transition: background 0.3s ease, color 0.3s ease;
 }
-
+.show-more-btn:active {
+  background: #1f3cd4;
+}
   @media screen and (min-width: 768px) {
     
       .catalog {
