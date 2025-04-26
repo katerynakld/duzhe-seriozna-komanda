@@ -45,7 +45,8 @@
   gap: 32px;
   flex-direction: column;
   gap: 32px;
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif;
+  margin: 310px 129px 436px 128px; 
 }
 
 .modal-links li a {
