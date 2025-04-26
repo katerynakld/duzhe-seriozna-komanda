@@ -43,6 +43,37 @@
   display: flex;
   align-items: center;
   gap: 32px;
+  flex-direction: column;
+  gap: 32px;
+  font-family: Gilroy;
+}
+
+.modal-links li a {
+  position: relative;
+  color: #FBFBFB;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.modal-links li a::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+
+.modal-links li a:hover::after {
+  transform: translateX(-50%) scale(1);
 }
 
 .modal-links a {
