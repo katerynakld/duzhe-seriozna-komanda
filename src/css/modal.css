@@ -1,4 +1,4 @@
-.modal {
+.modal-overlay {
     display: none; 
     position: fixed;
     z-index: 1000;
@@ -10,7 +10,7 @@
     background-color: rgba(0,0,0,0.5);
   }
   
-  .modal-content {
+  .modal-tablet{
     background-color: #fff;
     margin: 10% auto;
     padding: 20px;
