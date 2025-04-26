@@ -4,8 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(' ') no-repeat center/cover;
-  display: none;
+  background-image: url('') no-repeat center/cover;
+  /*display: none;*/
   justify-content: center;
   align-items: center;
   z-index: 999;
@@ -16,6 +16,10 @@
   width: 330px;
   height: 1024px;
   background: transparent;
+}
+
+.modal-overlay.active {
+  display: flex;
 }
 
 .close-button {
@@ -36,7 +40,6 @@
 
 .modal-links {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 32px;
 }
@@ -70,7 +73,7 @@
 }
 
 /* Планшет */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .modal-container {
     width: 330px;
     height: 1024px;
