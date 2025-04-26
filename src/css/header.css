@@ -3,33 +3,24 @@
 }
 .header-container {
   display: flex;
-  width: 335px;
-  height: 34px;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  padding: 20px 0;
 }
 @media screen and (min-width: 768px) {
   .header-container {
-    width: 704px;
-    height: 40px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .header-container {
-    width: 1151px;
-    height: 36px;
-    margin: 26px 64.5px;
+    padding: 26px 0;
   }
 }
 .header-logo {
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   width: 90px;
   height: 19px;
-  margin: 8px 0;
 }
 @media screen and (min-width: 768px) {
   .header-logo {
@@ -38,19 +29,12 @@
     height: 24px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .header-logo {
-    margin: 6px 0;
-  }
-}
 .nav-list {
   display: none;
 }
 @media screen and (min-width: 1280px) {
   .nav-list {
     display: flex;
-    width: 505px;
-    height: 28px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -60,6 +44,11 @@
 .nav-item {
   position: relative;
   padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #0c0c0c;
 }
 .nav-item::after {
   content: '';
@@ -84,8 +73,6 @@
 @media screen and (min-width: 1280px) {
   .soc-link-list {
     display: flex;
-    width: 128px;
-    height: 36px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -101,14 +88,18 @@
 }
 .soc-icon-svg {
   fill: #0c0c0c;
+  opacity: 0.8;
 }
-.soc-icon-svg:hover,
-.soc-icon-svg:focus {
+.soc-icon:hover .soc-icon-svg,
+.soc-icon:focus .soc-icon-svg {
   fill: #3350e9;
-  transition: transform 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
   opacity: 0.8;
 }
 .burger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 34px;
   height: 34px;
   border: none;
@@ -126,15 +117,22 @@
     display: none;
   }
 }
+.burger-icon-container {
+  width: 28px;
+  height: 14px;
+}
+@media screen and (min-width: 768px) {
+  .burger-icon-container {
+    width: 34px;
+    height: 16px;
+  }
+}
 .burger-icon {
-  display: block;
-  fill: #0c0c0c;
-  stroke-width: 2.50px;
+  stroke: #0c0c0c;
+  stroke-width: 2.5px;
 }
 @media screen and (min-width: 768px) {
   .burger-icon {
-    width: 34px;
-    height: 16px;
     stroke-width: 3px;
   }
 }
