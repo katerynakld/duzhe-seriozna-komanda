@@ -47,6 +47,7 @@
   flex-direction: column;
   gap: 32px;
   font-family: Gilroy, sans-serif;
+  justify-content: center;
   margin: 310px 129px 436px 129px; 
 }
 
