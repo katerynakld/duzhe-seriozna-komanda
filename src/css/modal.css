@@ -1,7 +1,5 @@
 .modal-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100vh;
   background-image: url('') no-repeat center/cover;
@@ -17,6 +15,7 @@
   width: 330px;
   height: 1024px;
   background: transparent;
+  
 }
 
 .modal-overlay.active {
