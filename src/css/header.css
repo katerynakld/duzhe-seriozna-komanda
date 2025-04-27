@@ -1,1 +1,138 @@
-
+.page-header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 26px 0;
+  }
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  width: 90px;
+  height: 19px;
+}
+@media screen and (min-width: 768px) {
+  .header-logo {
+    font-size: 20px;
+    width: 112px;
+    height: 24px;
+  }
+}
+.nav-list {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .nav-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+.nav-item {
+  position: relative;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #0c0c0c;
+}
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #3350e9;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transform: translateX(-50%) scale(0);
+  transform-origin: bottom center;
+  transition: transform 0.3s ease-in-out;
+}
+.nav-item:hover::after,
+.nav-item:focus::after {
+  transform: translateX(-50%) scale(1);
+}
+.soc-link-list {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .soc-link-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+.soc-icon {
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+}
+.soc-icon-svg {
+  fill: #0c0c0c;
+  opacity: 0.8;
+}
+.soc-icon:hover .soc-icon-svg,
+.soc-icon:focus .soc-icon-svg {
+  fill: #3350e9;
+  transition: fill 0.3s ease-in-out;
+  opacity: 0.8;
+}
+.burger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+}
+.burger-icon-container {
+  width: 28px;
+  height: 14px;
+}
+@media screen and (min-width: 768px) {
+  .burger-icon-container {
+    width: 34px;
+    height: 16px;
+  }
+}
+.burger-icon {
+  stroke: #0c0c0c;
+  stroke-width: 2.5px;
+}
+@media screen and (min-width: 768px) {
+  .burger-icon {
+    stroke-width: 3px;
+  }
+}
