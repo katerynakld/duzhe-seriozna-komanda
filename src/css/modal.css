@@ -24,7 +24,7 @@
 }
 
 .close-button {
-  position: absolute;
+  justify-content: end;
   background: none;
   border: none;
   cursor: pointer;
