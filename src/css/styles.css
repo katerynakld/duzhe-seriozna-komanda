@@ -12,6 +12,7 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./modal.css');
 @import url('./hero.css');
 @import url('./about-us.css');
 @import url('./catalog.css');
