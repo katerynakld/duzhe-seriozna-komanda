@@ -1,4 +1,5 @@
 .footer {
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -191,7 +192,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 0 0 32px 0;
+    padding: 40px 0 32px 0;
   }
 
   .footer .container {
@@ -283,6 +284,10 @@
 /* -------------DESKTOP--------------- */
 
 @media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 50px;
+  }
+
   .footer .container {
     padding: 40px 40px 28px;
     max-width: 1216px;

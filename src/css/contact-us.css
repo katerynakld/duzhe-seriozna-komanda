@@ -34,6 +34,7 @@
   .modal {
     width: 580px;
     padding: 50px 60px;
+    margin-bottom: 0;
   }
 }
 
