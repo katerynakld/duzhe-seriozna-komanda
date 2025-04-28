@@ -21,7 +21,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url(./img/bg-menu-mob.jpg);
+  /*background-image: url(./img/bg-menu-mob.jpg);*/
   background-size: cover;
   background-position: center;
   z-index: 999;
@@ -32,7 +32,7 @@
 }
 @media screen and (min-resolution: 2x) {
   .menu {
-    background-image: url(./img/bg-menu-mob-2x.jpg);
+    /*background-image: url(./img/bg-menu-mob-2x.jpg);*/
   }
 }
 .menu-close-icon {
@@ -108,13 +108,13 @@
 }
 @media screen and (min-width: 768px) {
   .menu {
-    background-image: url(./img/bg-menu-tab.jpg);
-    width: 330px;
+   /* background-image: url(./img/bg-menu-tab.jpg);
+    width: 330px;*/
   }
   @media screen and (min-resolution: 2x) {
-    .menu {
+    /*.menu {
       background-image: url(./img/bg-menu-tab-2x.jpg);
-    }
+    }*/
   }
   .menu-close-icon {
     width: 40px;
