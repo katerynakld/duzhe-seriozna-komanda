@@ -9,16 +9,15 @@
 @import url('./base.css');
 @import url('./fonts.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
 @import url('./modal.css');
 @import url('./hero.css');
 @import url('./about-us.css');
+@import url('./catalog.css');
 @import url('./advertisement.css');
-
+@import url('./sale.css');
 @import url('./review.css');
 @import url('./contact-us.css');
-
 @import url('./footer.css');

@@ -28,6 +28,7 @@ h1 {
   h1 {
     font-size: 70px;
     line-height: 86%;
+    letter-spacing: -1.4px;
   }
 }
 
@@ -52,17 +53,17 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .hero-first-wrapper {
-    max-width: 557px;
+    width: 557px;
   }
 
   .hero-first-wrapper p {
-    max-width: 480px;
+    width: 480px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-first-wrapper {
-    max-width: 597px;
+    width: 597px;
   }
 }
 

@@ -27,6 +27,7 @@
   .contact-us-title {
     font-size: 48px;
     margin-bottom: 40px;
+    line-height: 0.9;
   }
 }
 
@@ -35,7 +36,7 @@
   padding: 48px 28px;
   width: 335px;
   height: 512px;
-  background: #f3f3f3;
+  background-color: #f3f3f3;
   margin-bottom: 20px;
 }
 
@@ -48,7 +49,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .modal {
     width: 580px;
     height: 556px;
@@ -69,7 +70,7 @@
   .form-subtitle {
     font-size: 16px;
     line-height: 1.25;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
   }
 }
 
@@ -85,7 +86,7 @@
   padding: 12px 14px 12px 14px;
   width: 279px;
   height: 42px;
-  background: transparent;
+  background-color: transparent;
   border: 1px solid rgba(12, 12, 12, 0.15);
   transition: border-color 200ms ease-in-out 100ms;
   outline: none;
@@ -130,7 +131,7 @@
 .textarea-com::placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   color: #0c0c0c;
 }
 
@@ -155,10 +156,10 @@
   display: block;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
-  background: #3350e9;
+  background-color: #3350e9;
   border-radius: 16px;
   padding: 12px 50px;
   width: 134px;
@@ -196,7 +197,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .cont-us-img {
     width: 530px;
     position: absolute;

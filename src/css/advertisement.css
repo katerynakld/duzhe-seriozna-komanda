@@ -8,6 +8,9 @@
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 60px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (min-resolution: 192dpi) {
@@ -58,7 +61,7 @@
 .advertisement-text {
   font-family: var(--semibold-font);
   font-size: 32px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 28px;
@@ -87,6 +90,7 @@
 
 .advertisement-link {
   display: inline-block;
+  width: 160px;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
   font-family: var(--main-font);
