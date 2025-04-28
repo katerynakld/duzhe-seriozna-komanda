@@ -20,6 +20,12 @@
   pointer-events: auto;
 }
 
+@media only screen and (min-width: 1280px) {
+  .modal-overlay {
+    display: none;
+  }
+}
+
 .modal-window {
   background-image: url(/img/bg-menu-mob.jpg);
   display: flex;

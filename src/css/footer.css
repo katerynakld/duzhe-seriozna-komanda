@@ -41,6 +41,7 @@
 .social-footer-link:focus,
 .social-footer-link:hover {
   border: 1px solid rgba(251, 251, 251, 0.5);
+  outline: none;
 }
 
 .social-footer-icon {
@@ -75,6 +76,7 @@
   border: 1px solid rgba(251, 251, 251, 0.5);
   background-color: #fbfbfb;
   color: #0c0c0c;
+  outline: none;
 }
 
 .text-desk {
@@ -129,6 +131,7 @@
 .footer-nav-link:focus,
 .footer-nav-link:hover {
   color: #3350e9;
+  outline: none;
 }
 
 .footer-address-link {
@@ -144,6 +147,7 @@
 .footer-address-link:focus,
 .footer-address-link:hover {
   color: #3350e9;
+  outline: none;
 }
 
 /* address {
@@ -166,6 +170,7 @@
 .current:focus,
 .current:hover {
   color: rgba(251, 251, 251, 0.774);
+  outline: none;
 }
 
 .footer-bottom-contacts {

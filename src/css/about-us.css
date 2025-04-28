@@ -1,9 +1,4 @@
 /* about-us-mobile */
-
-.about-us {
-  padding-bottom: 60px;
-}
-
 .about-us-container {
   border-radius: 30px;
   background-color: #f3f3f3;
@@ -65,9 +60,6 @@
 /* about-us-tab */
 
 @media screen and (min-width: 768px) {
-  .about-us {
-    padding-bottom: 80px;
-  }
   .about-us-container {
     border-radius: 50px;
     padding-left: 60px;
@@ -97,9 +89,6 @@
 /* about-us-desk */
 
 @media screen and (min-width: 1280px) {
-  .about-us {
-    padding-bottom: 100px;
-  }
   .about-us-wrap {
     display: flex;
     align-items: center;

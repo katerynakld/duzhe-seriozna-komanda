@@ -50,7 +50,12 @@
   text-align: center;
   color: #0c0c0c;
 }
-.nav-item::after {
+
+.nav-link:hover,
+.nav-link:focus {
+  outline: none;
+}
+.nav-link::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -63,10 +68,12 @@
   transform-origin: bottom center;
   transition: transform 0.3s ease-in-out;
 }
-.nav-item:hover::after,
-.nav-item:focus::after {
+
+.nav-link:hover::after,
+.nav-link:focus::after {
   transform: translateX(-50%) scale(1);
 }
+
 .soc-link-list {
   display: none;
 }
@@ -88,12 +95,18 @@
   width: 36px;
   height: 36px;
 }
+
+.soc-icon-link:hover,
+.soc-icon-link:focus {
+  outline: none;
+}
+
 .soc-icon-svg {
   fill: #0c0c0c;
   opacity: 0.8;
 }
-.soc-icon:hover .soc-icon-svg,
-.soc-icon:focus .soc-icon-svg {
+.soc-icon-link:hover .soc-icon-svg,
+.soc-icon-link:focus .soc-icon-svg {
   fill: #3350e9;
   transition: fill 0.3s ease-in-out;
   opacity: 0.8;

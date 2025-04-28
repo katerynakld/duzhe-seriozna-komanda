@@ -1,7 +1,3 @@
-.catalog {
-  padding-bottom: 60px;
-}
-
 .title-catalog {
   font-family: var(--semibold-font);
   font-weight: 600;
@@ -91,10 +87,6 @@
   background-color: #1f3cd4;
 }
 @media screen and (min-width: 768px) {
-  .catalog {
-    padding-bottom: 40px;
-  }
-
   .title-catalog {
     font-family: var(--font-family);
     font-weight: 600;
@@ -168,10 +160,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog {
-    padding-bottom: 100px;
-  }
-
   .catalog-list {
     gap: 23px;
     row-gap: 32px;

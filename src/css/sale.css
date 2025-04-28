@@ -1,7 +1,3 @@
-.sale {
-  padding-bottom: 60px;
-}
-
 .secondary-title {
   font-weight: 600;
   font-size: 32px;
@@ -146,10 +142,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .sale {
-    padding-bottom: 80px;
-  }
-
   .secondary-title {
     font-size: 48px;
     line-height: 0.92;
@@ -241,10 +233,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .sale {
-    padding-bottom: 100px;
-  }
-
   .sale-content-wrapper {
     display: flex;
   }
