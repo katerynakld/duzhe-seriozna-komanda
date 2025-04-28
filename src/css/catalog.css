@@ -18,7 +18,7 @@
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  width: 100%;
   background: #f3f3f3;
   box-sizing: border-box;
   display: flex;
@@ -36,11 +36,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 279px;
-  height: 262px;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 10px;
 }
+
 .catalog-images {
   width: 208px;
   height: 226px;
@@ -169,5 +169,9 @@
     width: calc((100% - 46px) / 3);
     height: 414px;
     max-width: 368px;
+  }
+
+  .catalog-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
