@@ -198,11 +198,20 @@
   }
 }
 
+.form-input:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+/* стилізація інпута при валідному значенні */
+.form-input:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
 .text-valid,
 .text-invalid {
   font-size: 14px;
-  padding-left: 20px;
-  margin-top: 4px;
+  padding-left: 10px;
+  margin-top: 8px;
   display: none;
 }
 
@@ -214,12 +223,11 @@
   color: red;
 }
 
-/* стилізація інформаційного текста при валідному значенні в інпуті */
-.inp:not(:placeholder-shown):valid ~ .text-valid {
+.form-input:not(:placeholder-shown):valid ~ .text-valid {
   display: block;
 }
 
 /* стилізація інформаційного текста при не валідному значенні в інпуті */
-.inp:not(:placeholder-shown):invalid ~ .text-invalid {
+.form-input:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
 }
