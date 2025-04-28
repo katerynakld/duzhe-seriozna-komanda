@@ -46,6 +46,7 @@
     padding: 50px 122px;
     width: 704px;
     height: 556px;
+    margin-bottom: 40px;
   }
 }
 
@@ -92,7 +93,9 @@
   outline: none;
 }
 
-.form-input:focus {
+.form-input:hover,
+.form-input:focus,
+.form-input:focus-within {
   border-color: #1f3cd4;
 }
 
@@ -135,7 +138,9 @@
   color: #0c0c0c;
 }
 
-.textarea-com:focus {
+.textarea-com:hover,
+.textarea-com:focus,
+.textarea-com:focus-within {
   border-color: #1f3cd4;
 }
 

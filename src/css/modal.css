@@ -131,24 +131,23 @@
   gap: 10px;
 }
 
-.soc-icon-link {
+.modal-soc-icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
-
   width: 34px;
   height: 34px;
 }
 
-.soc-icon-svg {
+.modal-soc-icon-svg {
   fill: #fbfbfb;
   opacity: 0.8;
   transition: opacity 0.3s ease-in-out;
 }
 
-.modal-soc-icon:hover .soc-icon-svg,
-.modal-soc-icon:focus .soc-icon-svg {
+.modal-soc-icon:hover .modal-soc-icon-svg,
+.modal-soc-icon:focus .modal-soc-icon-svg {
   opacity: 1;
 }
