@@ -40,6 +40,14 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  transform: rotateY(0deg);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 2s;
+  transition-property: transform;
+}
+
+.sale-product-image:hover {
+  transform: rotateY(180deg);
 }
 
 .sale-product-content {

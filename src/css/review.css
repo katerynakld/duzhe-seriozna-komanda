@@ -7,16 +7,28 @@
   margin-bottom: 24px;
 }
 
+.review-ul {
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+}
+
 .review-li {
   display: flex;
+  box-sizing: border-box;
+  min-width: 335px;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   border-radius: 30px;
   padding: 32px 36px;
-  max-width: 335px;
-  height: 262px;
   background: #f3f3f3;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .review-li {
+    min-width: 280px;
+  }
 }
 
 .review-li img {
@@ -42,10 +54,10 @@
   color: rgba(12, 12, 12, 0.4);
 }
 
-.second-review,
+/* .second-review,
 .third-review {
   display: none;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .second-review {
@@ -63,7 +75,7 @@
   }
 
   .review-li {
-    max-width: 344px;
+    min-width: 344px;
     width: calc((100% - 16px) / 2);
     height: auto;
   }
