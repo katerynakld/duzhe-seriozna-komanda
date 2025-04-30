@@ -49,3 +49,7 @@ section:not(.hero-section) {
     padding: 50px 0 50px 0;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
